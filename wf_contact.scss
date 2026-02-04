@@ -1,0 +1,136 @@
+// Contact Us / Get a Quote Section
+// Prefix: wf-contact
+// For Odoo 16+ assets_frontend
+
+.wf-contact-topbar {
+  height: 12px;
+  background-color: #1a365d;
+  width: 100%;
+}
+
+.wf-contact-section {
+  padding: 60px 0 80px;
+  background-color: #f8f9fa;
+
+  @media (max-width: 767px) {
+    padding: 40px 0 60px;
+  }
+}
+
+// Section Header
+.wf-contact-title {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 12px;
+  line-height: 1.2;
+
+  @media (max-width: 767px) {
+    font-size: 1.625rem;
+  }
+}
+
+.wf-contact-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 40px;
+  line-height: 1.6;
+
+  @media (max-width: 767px) {
+    margin-bottom: 32px;
+  }
+}
+
+// Contact Card
+.wf-contact-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+
+  @media (max-width: 767px) {
+    padding: 28px;
+  }
+}
+
+.wf-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e2e8f0;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &:last-of-type {
+    border-bottom: none;
+    padding-bottom: 24px;
+  }
+
+  &:hover {
+    .wf-contact-icon {
+      background-color: rgba(26, 54, 93, 0.12);
+    }
+
+    .wf-contact-value {
+      color: #0f2341;
+    }
+  }
+}
+
+.wf-contact-icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  background-color: rgba(26, 54, 93, 0.06);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+
+  i {
+    font-size: 1.125rem;
+    color: #1a365d;
+  }
+}
+
+.wf-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.wf-contact-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8125rem;
+  color: #64748b;
+}
+
+.wf-contact-value {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a365d;
+  transition: color 0.2s ease;
+
+  @media (max-width: 767px) {
+    font-size: 1.125rem;
+  }
+}
+
+.wf-contact-response {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  color: #94a3b8;
+  text-align: center;
+  margin: 0;
+  padding-top: 8px;
+}

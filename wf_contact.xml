@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Contact Us / Get a Quote Section -->
+    <template id="snippet_wf_contact" name="Warefor Contact Section">
+        <!-- Top Bar -->
+        <div class="wf-contact-topbar"></div>
+
+        <section class="wf-contact-section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="wf-contact-title">Contact Us / Get a Quote</h2>
+                        <p class="wf-contact-subtitle">Ready to optimize your logistics? Reach out to us directly.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Card -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="wf-contact-card">
+                            <!-- Phone -->
+                            <a href="tel:+18325684100" class="wf-contact-item">
+                                <span class="wf-contact-icon">
+                                    <i class="fa fa-phone"></i>
+                                </span>
+                                <div class="wf-contact-info">
+                                    <span class="wf-contact-label">Call us</span>
+                                    <span class="wf-contact-value">(832) 568-4100</span>
+                                </div>
+                            </a>
+
+                            <!-- Email -->
+                            <a href="mailto:info@warefor.com" class="wf-contact-item">
+                                <span class="wf-contact-icon">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                                <div class="wf-contact-info">
+                                    <span class="wf-contact-label">Email us</span>
+                                    <span class="wf-contact-value">info@warefor.com</span>
+                                </div>
+                            </a>
+
+                            <!-- Response Time -->
+                            <p class="wf-contact-response">We typically respond within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
