@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Case Study Detail Page Template -->
+    <template id="snippet_wf_case_study_detail" name="Warefor Case Study Detail">
+        <!-- Hero Section -->
+        <section class="wf-cs-hero">
+            <img src="/warefor_website/static/src/img/case-containers.jpg" alt="Shipping Containers" class="wf-cs-hero-bg"/>
+            <div class="wf-cs-hero-overlay"></div>
+            <div class="container">
+                <div class="wf-cs-hero-content">
+                    <a href="/case-studies" class="wf-cs-back">
+                        <i class="fa fa-arrow-left"></i> Back
+                    </a>
+                    <h1 class="wf-cs-title">Rapid Port Decongestion &amp; Emergency Warehousing</h1>
+                    <p class="wf-cs-subtitle">From Crisis Response to Long-Term Partnership</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Caption -->
+        <div class="wf-cs-caption">
+            <p><strong>Illustrative image:</strong> Shipping containers stacked high like a city skyline — representing the massive volume of inventory Warefor processed through rapid emergency warehousing deployment.</p>
+        </div>
+
+        <!-- Content Section -->
+        <section class="wf-cs-content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <!-- The Challenge -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Challenge</h2>
+                            <p>During the height of the pandemic, a major national big-box retailer faced severe congestion at U.S. ports. Large volumes of inbound containers were accumulating in costly storage yards, delaying inventory visibility and restricting product flow across their distribution network.</p>
+                            <p>The retailer urgently needed to:</p>
+                            <ul class="wf-cs-list">
+                                <li>Rapidly unload and process containers</li>
+                                <li>Receive the merchandise into their systems for visibility &amp; inventory control</li>
+                                <li>Restore throughput across their supply chain under extreme time pressure</li>
+                            </ul>
+                        </div>
+
+                        <!-- The Solution -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Solution</h2>
+                            <p>Warefor was engaged to deliver an immediate, large-scale warehousing solution with minimal lead time.</p>
+                            <p><strong>Within two weeks, Warefor:</strong></p>
+                            <ul class="wf-cs-list">
+                                <li>Identified and secured a 375,000 sq. ft. warehouse on a short-term lease</li>
+                                <li>Fully cleaned, prepared, and operationalized the facility</li>
+                                <li>Began receiving inbound freight the day after the lease was executed</li>
+                            </ul>
+                            <p>As inbound volumes continued to surge, Warefor expanded operations to manage two facilities simultaneously, totaling over 500,000 sq. ft. of active warehouse space operating at near-full capacity.</p>
+                            <p><strong>To ensure speed, accuracy, and transparency, Warefor implemented:</strong></p>
+                            <ul class="wf-cs-list">
+                                <li>Real-time transaction processing</li>
+                                <li>Photo-based operational reporting for real-time quality control</li>
+                                <li>Proactive communication to ensure uninterrupted flow of containers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
