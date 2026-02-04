@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Case Study 4: Industrial Bulk Storage & Port Overflow Support -->
+    <template id="snippet_wf_case_study_4" name="Warefor Case Study 4 - Industrial Bulk Storage">
+        <!-- Hero Section -->
+        <section class="wf-cs-hero">
+            <img src="/warefor_website/static/src/img/case-bulk-storage.jpg" alt="Bulk Storage Pallets" class="wf-cs-hero-bg"/>
+            <div class="wf-cs-hero-overlay"></div>
+            <div class="container">
+                <div class="wf-cs-hero-content">
+                    <a href="/case-studies" class="wf-cs-back">
+                        <i class="fa fa-arrow-left"></i> Back
+                    </a>
+                    <h1 class="wf-cs-title">Industrial Bulk Storage &amp; Port Overflow Support</h1>
+                    <p class="wf-cs-subtitle">Adapting Fast, Executing with Precision</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="wf-cs-content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <!-- The Challenge -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Challenge</h2>
+                            <p>A global manufacturer of engineered hardwood and composite building materials required temporary overflow storage to support a major inbound shipment arriving at a U.S. port. The vessel carried palletized product in bulk equivalent to approximately 400 truckloads, creating immediate pressure on available space and inbound coordination.</p>
+                            <p>Unlike packaged consumer goods, the product required:</p>
+                            <ul class="wf-cs-list">
+                                <li>Careful handling to preserve material integrity</li>
+                                <li>Optimized stacking to optimize space and prevent damage and deformation</li>
+                                <li>Tight coordination between port terminals, inbound and outbound trucking</li>
+                            </ul>
+                            <p><strong>Speed was critical—but not at the expense of quality.</strong></p>
+                        </div>
+
+                        <!-- The Solution -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Solution</h2>
+                            <p>Warefor quickly adapted its equipment, labor, and processes to support the handling of bulk industrial materials outside of its typical consumer goods profile.</p>
+                            <p><strong>Key elements of execution included:</strong></p>
+                            <ul class="wf-cs-list">
+                                <li>Coordinating inbound and outbound flows directly with the port terminal operators</li>
+                                <li>Adjusting handling methods to protect product surfaces and structure</li>
+                                <li>Designing optimized stacking layouts to maximize space while preserving product integrity</li>
+                                <li>Applying the same disciplined inventory controls used across all Warefor operations</li>
+                            </ul>
+                            <p>Within just three weeks, Warefor successfully unloaded and processed the total inbound volume, maintaining steady throughput without congestion or damage.</p>
+                        </div>
+
+                        <!-- The Results -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Results</h2>
+                            <ul class="wf-cs-list">
+                                <li>Rapid absorption of high-volume bulk inventory</li>
+                                <li>Product integrity preserved through careful handling and organized storage</li>
+                                <li>Efficient outbound coordination aligned with customer delivery schedules</li>
+                                <li>Zero product damage or loss across the entire operation</li>
+                            </ul>
+                        </div>
+
+                        <!-- Statistics Grid -->
+                        <div class="wf-cs-stats">
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">400</span>
+                                <span class="wf-cs-stat-label">Truckloads processed</span>
+                            </div>
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">3 Weeks</span>
+                                <span class="wf-cs-stat-label">Execution time</span>
+                            </div>
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">Zero</span>
+                                <span class="wf-cs-stat-label">Product damage or loss</span>
+                            </div>
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">100%</span>
+                                <span class="wf-cs-stat-label">On-time delivery</span>
+                            </div>
+                        </div>
+
+                        <!-- Why It Matters Callout -->
+                        <div class="wf-cs-callout">
+                            <h3 class="wf-cs-callout-title">Why It Matters</h3>
+                            <p>This engagement demonstrates Warefor's ability to:</p>
+                            <ul class="wf-cs-callout-list">
+                                <li>Quickly adapt operations to handle non-standard product types</li>
+                                <li>Execute high-volume overflow projects with speed and precision</li>
+                                <li>Maintain product quality standards regardless of commodity type</li>
+                            </ul>
+                            <p class="wf-cs-callout-cta"><strong>When the unexpected arrives, Warefor is ready to respond.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
