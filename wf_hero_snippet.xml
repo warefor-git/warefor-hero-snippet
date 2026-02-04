@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Warefor Hero Section Snippet -->
+    <template id="snippet_wf_hero" name="Warefor Hero Section">
+        <section class="wf-hero-section">
+            <div class="wf-hero-bg" style="background-image: url('/warefor_website/static/src/img/hero-warehouse.jpg');"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="wf-hero-card">
+                            <h1 class="wf-hero-title">Your Logistics Partner for Consumer Goods</h1>
+                            <p class="wf-hero-subtitle">Expert warehousing, distribution, and supply chain technology to power your growth.</p>
+                            <a href="/contact" class="wf-hero-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- Register as draggable snippet (optional) -->
+    <template id="snippet_wf_hero_options" inherit_id="website.snippets">
+        <xpath expr="//snippets[@id='snippets_structure']" position="inside">
+            <t t-snippet="warefor_website.snippet_wf_hero" t-thumbnail="/warefor_website/static/src/img/snippet_thumb_hero.png"/>
+        </xpath>
+    </template>
+</odoo>
