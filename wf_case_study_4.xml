@@ -55,29 +55,10 @@
                             <ul class="wf-cs-list">
                                 <li>Rapid absorption of high-volume bulk inventory</li>
                                 <li>Product integrity preserved through careful handling and organized storage</li>
-                                <li>Efficient outbound coordination aligned with customer delivery schedules</li>
-                                <li>Zero product damage or loss across the entire operation</li>
+                                <li>Efficient stacking and space utilization</li>
+                                <li>Zero inventory discrepancies</li>
+                                <li>No operational surprises or downstream disruptions</li>
                             </ul>
-                        </div>
-
-                        <!-- Statistics Grid -->
-                        <div class="wf-cs-stats">
-                            <div class="wf-cs-stat">
-                                <span class="wf-cs-stat-value">400</span>
-                                <span class="wf-cs-stat-label">Truckloads processed</span>
-                            </div>
-                            <div class="wf-cs-stat">
-                                <span class="wf-cs-stat-value">3 Weeks</span>
-                                <span class="wf-cs-stat-label">Execution time</span>
-                            </div>
-                            <div class="wf-cs-stat">
-                                <span class="wf-cs-stat-value">Zero</span>
-                                <span class="wf-cs-stat-label">Product damage or loss</span>
-                            </div>
-                            <div class="wf-cs-stat">
-                                <span class="wf-cs-stat-value">100%</span>
-                                <span class="wf-cs-stat-label">On-time delivery</span>
-                            </div>
                         </div>
 
                         <!-- Why It Matters Callout -->
@@ -85,11 +66,11 @@
                             <h3 class="wf-cs-callout-title">Why It Matters</h3>
                             <p>This engagement demonstrates Warefor's ability to:</p>
                             <ul class="wf-cs-callout-list">
-                                <li>Quickly adapt operations to handle non-standard product types</li>
-                                <li>Execute high-volume overflow projects with speed and precision</li>
-                                <li>Maintain product quality standards regardless of commodity type</li>
+                                <li>Adapt quickly to non-standard products and handling requirements</li>
+                                <li>Maintain the same standards of quality, organization, and accountability across all operations</li>
+                                <li>Deliver reliable execution even under compressed timelines and high-volume conditions</li>
                             </ul>
-                            <p class="wf-cs-callout-cta"><strong>When the unexpected arrives, Warefor is ready to respond.</strong></p>
+                            <p class="wf-cs-callout-cta"><strong>Regardless of product type, Warefor brings structure, care, and operational excellence to every engagement.</strong></p>
                         </div>
                     </div>
                 </div>
