@@ -120,3 +120,60 @@
     font-size: 0.6875rem;
   }
 }
+
+// Carousel Navigation
+.wf-case-carousel {
+  position: relative;
+}
+
+.wf-case-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 10;
+
+  i {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  @media (max-width: 991px) {
+    width: 40px;
+    height: 40px;
+  }
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.wf-case-nav-prev {
+  left: -60px;
+
+  @media (max-width: 1199px) {
+    left: -20px;
+  }
+}
+
+.wf-case-nav-next {
+  right: -60px;
+
+  @media (max-width: 1199px) {
+    right: -20px;
+  }
+}

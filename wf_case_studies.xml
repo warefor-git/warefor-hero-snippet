@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Case Studies Section -->
+    <!-- Case Studies Section with Carousel -->
     <template id="snippet_wf_case_studies" name="Warefor Case Studies">
         <section class="wf-case-studies-section">
             <div class="container">
@@ -12,49 +12,76 @@
                     </div>
                 </div>
 
-                <!-- Case Study Cards -->
-                <div class="row wf-case-studies-row">
-                    <!-- Card 1: Port Decongestion -->
-                    <div class="col-lg-4 col-md-4">
-                        <div class="wf-case-card">
-                            <div class="wf-case-image-wrapper">
-                                <img src="/warefor_website/static/src/img/case-containers.jpg" alt="Shipping Containers" class="wf-case-image"/>
+                <!-- Carousel Wrapper -->
+                <div class="wf-case-carousel">
+                    <!-- Navigation Arrow Left -->
+                    <button class="wf-case-nav wf-case-nav-prev" aria-label="Previous">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+
+                    <!-- Case Study Cards -->
+                    <div class="row wf-case-studies-row">
+                        <!-- Card 1: Port Decongestion -->
+                        <div class="col-lg-4 col-md-4 wf-case-slide">
+                            <div class="wf-case-card">
+                                <div class="wf-case-image-wrapper">
+                                    <img src="/warefor_website/static/src/img/case-containers.jpg" alt="Shipping Containers" class="wf-case-image"/>
+                                </div>
+                                <div class="wf-case-content">
+                                    <h3 class="wf-case-title">Rapid Port Decongestion &amp; Emergency Warehousing</h3>
+                                    <p class="wf-case-description">From Crisis Response to Long-Term Partnership. Delivered an immediate, large-scale warehousing solution with minimal lead time during peak congestion.</p>
+                                    <p class="wf-case-stats">4,300+ CONTAINERS PROCESSED · 9.25M CU. FT. HANDLED</p>
+                                </div>
                             </div>
-                            <div class="wf-case-content">
-                                <h3 class="wf-case-title">Rapid Port Decongestion &amp; Emergency Warehousing</h3>
-                                <p class="wf-case-description">From Crisis Response to Long-Term Partnership. Delivered an immediate, large-scale warehousing solution with minimal lead time during peak congestion.</p>
-                                <p class="wf-case-stats">4,300+ CONTAINERS PROCESSED · 9.25M CU. FT. HANDLED</p>
+                        </div>
+
+                        <!-- Card 2: Marketplace Fulfillment -->
+                        <div class="col-lg-4 col-md-4 wf-case-slide">
+                            <div class="wf-case-card">
+                                <div class="wf-case-image-wrapper">
+                                    <img src="/warefor_website/static/src/img/case-map.jpg" alt="US Distribution Map" class="wf-case-image"/>
+                                </div>
+                                <div class="wf-case-content">
+                                    <h3 class="wf-case-title">Marketplace Fulfillment at Scale</h3>
+                                    <p class="wf-case-description">Enabling Seller-Fulfilled Prime &amp; Fast Nationwide Delivery. Established a flexible, marketplace-compliant fulfillment operation for a viral consumer brand.</p>
+                                    <p class="wf-case-stats">1-DAY DELIVERY COVERAGE · 100% MARKETPLACE COMPLIANCE</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Retail Expansion -->
+                        <div class="col-lg-4 col-md-4 wf-case-slide">
+                            <div class="wf-case-card">
+                                <div class="wf-case-image-wrapper">
+                                    <img src="/warefor_website/static/src/img/case-retail.jpg" alt="Retail Store" class="wf-case-image"/>
+                                </div>
+                                <div class="wf-case-content">
+                                    <h3 class="wf-case-title">Marketplace-to-Retail Expansion</h3>
+                                    <p class="wf-case-description">Scaling from Online Success to Nationwide Store Distribution. Managed complex item setup and retail master data for a fast-growing international cookware brand.</p>
+                                    <p class="wf-case-stats">5,000+ RETAIL STORES SERVED · ZERO INVENTORY DISCREPANCIES</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Industrial Bulk Storage -->
+                        <div class="col-lg-4 col-md-4 wf-case-slide">
+                            <div class="wf-case-card">
+                                <div class="wf-case-image-wrapper">
+                                    <img src="/warefor_website/static/src/img/case-bulk.jpg" alt="Bulk Storage" class="wf-case-image"/>
+                                </div>
+                                <div class="wf-case-content">
+                                    <h3 class="wf-case-title">Industrial Bulk Storage &amp; Port Overflow Support</h3>
+                                    <p class="wf-case-description">Adapting Fast, Executing with Precision. Quickly adapted equipment and processes to handle bulk industrial materials equivalent to 400 truckloads.</p>
+                                    <p class="wf-case-stats">400 TRUCKLOADS PROCESSED · 3 WEEKS EXECUTION TIME</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Card 2: Marketplace Fulfillment -->
-                    <div class="col-lg-4 col-md-4">
-                        <div class="wf-case-card">
-                            <div class="wf-case-image-wrapper">
-                                <img src="/warefor_website/static/src/img/case-map.jpg" alt="US Distribution Map" class="wf-case-image"/>
-                            </div>
-                            <div class="wf-case-content">
-                                <h3 class="wf-case-title">Marketplace Fulfillment at Scale</h3>
-                                <p class="wf-case-description">Enabling Seller-Fulfilled Prime &amp; Fast Nationwide Delivery. Established a flexible, marketplace-compliant fulfillment operation for a viral consumer brand.</p>
-                                <p class="wf-case-stats">1-DAY DELIVERY COVERAGE · 100% MARKETPLACE COMPLIANCE</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 3: Retail Expansion -->
-                    <div class="col-lg-4 col-md-4">
-                        <div class="wf-case-card">
-                            <div class="wf-case-image-wrapper">
-                                <img src="/warefor_website/static/src/img/case-retail.jpg" alt="Retail Store" class="wf-case-image"/>
-                            </div>
-                            <div class="wf-case-content">
-                                <h3 class="wf-case-title">Marketplace-to-Retail Expansion</h3>
-                                <p class="wf-case-description">Scaling from Online Success to Nationwide Store Distribution. Managed complex item setup and retail master data for a fast-growing international cookware brand.</p>
-                                <p class="wf-case-stats">5,000+ RETAIL STORES SERVED · ZERO INVENTORY DISCREPANCIES</p>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Navigation Arrow Right -->
+                    <button class="wf-case-nav wf-case-nav-next" aria-label="Next">
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
                 </div>
             </div>
         </section>
