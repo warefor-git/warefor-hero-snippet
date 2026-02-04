@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Warefor Logistics Journey Section Snippet -->
+    <template id="snippet_wf_journey" name="Warefor Logistics Journey">
+        <section class="wf-journey-section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="wf-journey-title">Your Logistics Journey</h2>
+                        <p class="wf-journey-subtitle">From chaos to confidence in three steps—we help brands establish and grow in the US market</p>
+                    </div>
+                </div>
+
+                <!-- Step 1: Your Challenges -->
+                <div class="row wf-journey-step">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wf-journey-image-wrapper">
+                            <span class="wf-journey-badge">Step 1</span>
+                            <img src="/warefor_website/static/src/img/journey-ship.jpg" alt="Cargo Ship" class="wf-journey-image"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wf-journey-content">
+                            <div class="wf-journey-icon-title">
+                                <span class="wf-journey-icon">
+                                    <i class="fa fa-box"></i>
+                                </span>
+                                <h3 class="wf-journey-step-title">Your Challenges</h3>
+                            </div>
+                            <p class="wf-journey-description">Inventory chaos, shipping costs, scaling pains—we've seen it all and know how to solve it.</p>
+                            
+                            <!-- Progress Indicator -->
+                            <div class="wf-journey-progress">
+                                <div class="wf-progress-item">
+                                    <span class="wf-progress-circle active">
+                                        <i class="fa fa-clock"></i>
+                                    </span>
+                                </div>
+                                <span class="wf-progress-line"></span>
+                                <div class="wf-progress-item">
+                                    <span class="wf-progress-circle">
+                                        <i class="fa fa-cube"></i>
+                                    </span>
+                                </div>
+                                <span class="wf-progress-line"></span>
+                                <div class="wf-progress-item">
+                                    <span class="wf-progress-circle">
+                                        <i class="fa fa-check"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- Tags -->
+                            <div class="wf-journey-tags">
+                                <span class="wf-journey-tag">US Market Entry</span>
+                                <span class="wf-journey-tag">Peak Season Overload</span>
+                                <span class="wf-journey-tag">Port Delays</span>
+                                <span class="wf-journey-tag">Marketplace Expansion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- Register as draggable snippet (optional) -->
+    <template id="snippet_wf_journey_options" inherit_id="website.snippets">
+        <xpath expr="//snippets[@id='snippets_structure']" position="inside">
+            <t t-snippet="warefor_website.snippet_wf_journey" t-thumbnail="/warefor_website/static/src/img/snippet_thumb_journey.png"/>
+        </xpath>
+    </template>
+</odoo>
