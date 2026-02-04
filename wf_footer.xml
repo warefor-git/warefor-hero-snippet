@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Footer Section with Hero Image -->
+    <template id="snippet_wf_footer" name="Warefor Footer">
+        <!-- Hero Image Banner -->
+        <div class="wf-footer-hero">
+            <img src="/warefor_website/static/src/img/warehouse-exterior.jpg" alt="Warefor Warehouse" class="wf-footer-hero-image"/>
+        </div>
+
+        <!-- Footer Content -->
+        <footer class="wf-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <!-- Logo -->
+                        <div class="wf-footer-logo">
+                            <img src="/warefor_website/static/src/img/warefor-logo.svg" alt="Warefor" class="wf-footer-logo-img"/>
+                        </div>
+
+                        <!-- Address -->
+                        <address class="wf-footer-address">
+                            32045 US-90 Business<br/>
+                            Brookshire, TX 77423
+                        </address>
+
+                        <!-- Legal Links -->
+                        <nav class="wf-footer-nav">
+                            <a href="/privacy-policy" class="wf-footer-link">Privacy Policy</a>
+                            <a href="/terms-of-service" class="wf-footer-link">Terms of Service</a>
+                            <a href="/cookie-policy" class="wf-footer-link">Cookie Policy</a>
+                        </nav>
+
+                        <!-- Copyright -->
+                        <p class="wf-footer-copyright">© 2025 Warefor. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </template>
+</odoo>
