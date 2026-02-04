@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Why Warefor Section -->
+    <template id="snippet_wf_why_warefor" name="Why Warefor">
+        <section class="wf-why-section">
+            <div class="container">
+                <div class="row wf-why-row">
+                    <!-- Image Left -->
+                    <div class="col-lg-5 col-md-6">
+                        <div class="wf-why-image-wrapper">
+                            <img src="/warefor_website/static/src/img/houston-skyline.jpg" alt="Houston Skyline" class="wf-why-image"/>
+                        </div>
+                    </div>
+                    <!-- Content Right -->
+                    <div class="col-lg-6 col-md-6 offset-lg-1">
+                        <div class="wf-why-content">
+                            <h2 class="wf-why-title">Why Warefor?</h2>
+                            <div class="wf-why-underline"></div>
+                            <p class="wf-why-text">Located in Greater Houston — strategically positioned near major ports, rail lines, and highways — Warefor provides a powerful logistics advantage for fast, reliable nationwide distribution.</p>
+                            <p class="wf-why-text">Our integrated services span supply chain engineering, value-added warehousing and fulfillment, all delivered by experienced teams, advanced technology, and a precision-driven approach.</p>
+                            <a href="/location" class="wf-why-link">Read more about our location <span class="wf-arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dark Footer Bar -->
+        <div class="wf-footer-bar"></div>
+    </template>
+</odoo>
