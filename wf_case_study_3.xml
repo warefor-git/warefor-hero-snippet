@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Case Study 3: Marketplace-to-Retail Expansion -->
+    <template id="snippet_wf_case_study_3" name="Warefor Case Study 3 - Retail Expansion">
+        <!-- Hero Section -->
+        <section class="wf-cs-hero">
+            <img src="/warefor_website/static/src/img/case-retail-aisle.jpg" alt="Retail Store Aisle" class="wf-cs-hero-bg"/>
+            <div class="wf-cs-hero-overlay"></div>
+            <div class="container">
+                <div class="wf-cs-hero-content">
+                    <a href="/case-studies" class="wf-cs-back">
+                        <i class="fa fa-arrow-left"></i> Back
+                    </a>
+                    <h1 class="wf-cs-title">Marketplace-to-Retail Expansion</h1>
+                    <p class="wf-cs-subtitle">Scaling from Online Success to Nationwide Store Distribution</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="wf-cs-content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <!-- The Challenge -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Challenge</h2>
+                            <p>A fast-growing international cookware brand achieved strong success selling online through major U.S. marketplaces. However, expanding into brick-and-mortar retail presented a fundamentally different set of challenges.</p>
+                            <p>Unlike e-commerce, selling through physical stores requires:</p>
+                            <ul class="wf-cs-list">
+                                <li>Rigid compliance with retailer-specific logistics and data standards</li>
+                                <li>Store-ready packaging that protects the product while presenting well on the shelf</li>
+                                <li>Flawless item setup, where minor errors can cascade into costly downstream issues</li>
+                                <li>Deep understanding of legacy retail systems and processes unfamiliar to many manufacturers operating abroad</li>
+                            </ul>
+                            <p>When a leading U.S. big-box retailer invited the brand to begin selling in stores, the brand was referred to Warefor to support the transition.</p>
+                        </div>
+
+                        <!-- The Solution -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Solution</h2>
+                            <p>Warefor partnered with the brand to design and execute a retail-ready distribution operation, drawing on decades of experience supporting major U.S. retailers.</p>
+                            
+                            <h3 class="wf-cs-subsection-title">Retail Readiness &amp; Execution</h3>
+                            <ul class="wf-cs-list">
+                                <li>Advising on store-ready packaging that withstands the logistics environment while maintaining strong in-store presentation</li>
+                                <li>Managing complex item setup and retail master data, reducing risk of chargebacks and operational friction</li>
+                                <li>Applying disciplined receiving, storage, and outbound processes to minimize damage, claims, and losses</li>
+                            </ul>
+
+                            <h3 class="wf-cs-subsection-title">Systems, EDI &amp; Visibility</h3>
+                            <ul class="wf-cs-list">
+                                <li>Implementing reliable workflows around electronic data interchange (EDI)—an older but mission-critical retail technology unfamiliar to many international manufacturers</li>
+                                <li>Providing full remote visibility through Warefor's platform, allowing the brand to monitor inventory levels, inbound and outbound activity, and product movement in real time</li>
+                            </ul>
+
+                            <h3 class="wf-cs-subsection-title">Sales &amp; Inventory Support</h3>
+                            <ul class="wf-cs-list">
+                                <li>Supporting inventory planning and forecasting at the store and unit level</li>
+                                <li>Coordinating replenishment to ensure consistent product availability across thousands of retail locations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
