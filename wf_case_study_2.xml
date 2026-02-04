@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Case Study 2: Marketplace Fulfillment at Scale -->
+    <template id="snippet_wf_case_study_2" name="Warefor Case Study 2 - Marketplace Fulfillment">
+        <!-- Hero Section -->
+        <section class="wf-cs-hero">
+            <img src="/warefor_website/static/src/img/case-warehouse-aisle.jpg" alt="Warehouse Aisle" class="wf-cs-hero-bg"/>
+            <div class="wf-cs-hero-overlay"></div>
+            <div class="container">
+                <div class="wf-cs-hero-content">
+                    <a href="/case-studies" class="wf-cs-back">
+                        <i class="fa fa-arrow-left"></i> Back
+                    </a>
+                    <h1 class="wf-cs-title">Marketplace Fulfillment at Scale</h1>
+                    <p class="wf-cs-subtitle">Enabling Seller-Fulfilled Prime &amp; Fast Nationwide Delivery</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="wf-cs-content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <!-- The Challenge -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Challenge</h2>
+                            <p>A rapidly growing consumer products brand experienced explosive demand across major U.S. marketplaces after its products went viral online. While sales surged, traditional fulfillment options became increasingly expensive and restrictive, especially under strict one-day and two-day delivery requirements imposed by marketplace platforms.</p>
+                            <p>To maintain service levels and protect margins, the brand needed to:</p>
+                            <ul class="wf-cs-list">
+                                <li>Establish a U.S.-based fulfillment network</li>
+                                <li>Meet Seller-Fulfilled Prime (FBM) delivery standards</li>
+                                <li>Ensure reliable, seven-day-a-week order processing</li>
+                                <li>Maintain real-time visibility without being physically present</li>
+                            </ul>
+                        </div>
+
+                        <!-- The Solution -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Solution</h2>
+                            <p>Warefor partnered with the brand to design and operate a flexible, marketplace-compliant fulfillment operation in the United States.</p>
+                            <p><strong>Key elements of the solution included:</strong></p>
+                            <ul class="wf-cs-list">
+                                <li>Identifying optimal shipping nodes to improve transit times</li>
+                                <li>Integrating with multiple parcel carriers to meet fast-delivery SLAs</li>
+                                <li>Establishing systems and workflows to process orders seven days a week</li>
+                                <li>Securing highly competitive parcel rates through volume optimization</li>
+                            </ul>
+                            <p><strong>Warefor implemented technology that allowed the client to:</strong></p>
+                            <ul class="wf-cs-list">
+                                <li>Monitor inventory levels in real time</li>
+                                <li>Track order processing and delivery status remotely</li>
+                                <li>Maintain confidence that delivery promises were consistently met</li>
+                            </ul>
+                        </div>
+
+                        <!-- Statistics Grid -->
+                        <div class="wf-cs-stats">
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">1-Day</span>
+                                <span class="wf-cs-stat-label">Delivery coverage nationwide</span>
+                            </div>
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">100%</span>
+                                <span class="wf-cs-stat-label">Marketplace compliance</span>
+                            </div>
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">7 Days</span>
+                                <span class="wf-cs-stat-label">A week order processing</span>
+                            </div>
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">Real-Time</span>
+                                <span class="wf-cs-stat-label">Inventory visibility</span>
+                            </div>
+                        </div>
+
+                        <!-- The Results -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Results</h2>
+                            <p>The brand successfully transitioned from a high-cost, third-party fulfillment model to a dedicated, cost-effective operation managed by Warefor.</p>
+                            <p>Key outcomes included:</p>
+                            <ul class="wf-cs-list">
+                                <li>Full compliance with Seller-Fulfilled Prime requirements</li>
+                                <li>Significant reduction in per-order fulfillment costs</li>
+                                <li>Improved delivery speed and customer satisfaction</li>
+                                <li>Scalable infrastructure to support continued growth</li>
+                            </ul>
+                        </div>
+
+                        <!-- Why It Matters Callout -->
+                        <div class="wf-cs-callout">
+                            <h3 class="wf-cs-callout-title">Why It Matters</h3>
+                            <p>This case demonstrates Warefor's ability to:</p>
+                            <ul class="wf-cs-callout-list">
+                                <li>Build marketplace-compliant fulfillment operations from scratch</li>
+                                <li>Deliver cost savings without sacrificing speed or reliability</li>
+                                <li>Provide remote visibility and control for international brands</li>
+                            </ul>
+                            <p class="wf-cs-callout-cta"><strong>For brands seeking U.S. market expansion, Warefor is the trusted partner.</strong></p>
+                        </div>
+
+                        <!-- Final Image -->
+                        <div class="wf-cs-final-image">
+                            <img src="/warefor_website/static/src/img/case-fulfillment.jpg" alt="Fulfillment Center" class="wf-cs-image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
