@@ -1,17 +1,22 @@
 # Warefor Logistics Journey Section - Odoo Website Snippet
 
-A responsive "Your Logistics Journey" section snippet for Odoo Website (16+) featuring a step-by-step visual with image, progress indicator, and tags.
+A responsive "Your Logistics Journey" section snippet for Odoo Website (16+) featuring a 3-step visual with images, progress indicators, and tags.
 
 ## Preview
 
 This snippet displays:
 - Section header with title and subtitle
-- Step 1: Image with badge, icon + title, description, progress indicator, and challenge tags
+- Step 1: Your Challenges - Image with badge, progress indicator, and challenge tags
+- Step 2: We Handle Everything - Feature icons, marketplace tags, warehouse image
+- Step 3: You Focus on Growth - Growth scale indicator, retail partnership tags
 
 ## Files
 
-- `wf_journey_snippet.xml` - QWeb template for the journey section
-- `wf_journey_snippet.scss` - SCSS styles for assets_frontend
+- `wf_journey_snippet.xml` - Step 1 section template
+- `wf_journey_snippet.scss` - Step 1 styles
+- `wf_journey_step2.xml` - Step 2 section template
+- `wf_journey_step3.xml` - Step 3 section template
+- `wf_journey_steps.scss` - Steps 2 & 3 shared styles
 
 ## Installation
 

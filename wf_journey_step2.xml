@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Step 2: We Handle Everything -->
+    <template id="snippet_wf_journey_step2" name="Warefor Journey Step 2">
+        <section class="wf-step-section">
+            <div class="container">
+                <div class="row wf-step-row">
+                    <!-- Content Left -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wf-step-content">
+                            <div class="wf-step-icon-title">
+                                <span class="wf-step-icon">
+                                    <i class="fa fa-cogs"></i>
+                                </span>
+                                <h3 class="wf-step-title">We Handle Everything</h3>
+                            </div>
+                            <p class="wf-step-description">Our system provides everything under one roof. Orders flow in, products ship out. We help you establish your brand in the US with fulfillment, photography, and marketplace optimization.</p>
+                            
+                            <!-- Feature Icons -->
+                            <div class="wf-step-features">
+                                <div class="wf-feature-item">
+                                    <span class="wf-feature-icon"><i class="fa fa-camera"></i></span>
+                                    <span class="wf-feature-label">Product Photos</span>
+                                </div>
+                                <div class="wf-feature-item">
+                                    <span class="wf-feature-icon"><i class="fa fa-eye"></i></span>
+                                    <span class="wf-feature-label">Listing Design</span>
+                                </div>
+                                <div class="wf-feature-item">
+                                    <span class="wf-feature-icon"><i class="fa fa-map-marker-alt"></i></span>
+                                    <span class="wf-feature-label">Live Tracking</span>
+                                </div>
+                            </div>
+
+                            <!-- Marketplace Tags -->
+                            <div class="wf-step-tags">
+                                <span class="wf-step-tag">Amazon</span>
+                                <span class="wf-step-tag">Walmart</span>
+                                <span class="wf-step-tag">TikTok Shop</span>
+                                <span class="wf-step-tag">Target+</span>
+                                <span class="wf-step-tag">Shopify</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Right -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wf-step-image-wrapper">
+                            <span class="wf-step-badge">Step 2</span>
+                            <img src="/warefor_website/static/src/img/step2-warehouse.jpg" alt="Warehouse Operations" class="wf-step-image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

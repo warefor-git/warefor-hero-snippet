@@ -1,0 +1,283 @@
+// Warefor Journey Steps 2 & 3
+// Prefix: wf-step
+// For Odoo 16+ assets_frontend
+
+.wf-step-section {
+  padding: 60px 0;
+  background-color: #ffffff;
+
+  @media (max-width: 767px) {
+    padding: 40px 0;
+  }
+}
+
+.wf-step-alt {
+  background-color: #fafafa;
+}
+
+.wf-step-row {
+  align-items: center;
+
+  @media (max-width: 767px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.wf-step-reverse {
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column-reverse;
+  }
+}
+
+// Image Wrapper
+.wf-step-image-wrapper {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+
+  @media (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+}
+
+.wf-step-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.wf-step-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #1a365d;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+// Content Area
+.wf-step-content {
+  padding-right: 40px;
+
+  @media (max-width: 991px) {
+    padding-right: 20px;
+  }
+
+  @media (max-width: 767px) {
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+}
+
+.wf-step-content-right {
+  padding-right: 0;
+  padding-left: 40px;
+
+  @media (max-width: 991px) {
+    padding-left: 20px;
+  }
+
+  @media (max-width: 767px) {
+    padding-left: 0;
+  }
+}
+
+.wf-step-icon-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.wf-step-icon {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(26, 54, 93, 0.08);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    font-size: 1.25rem;
+    color: #1a365d;
+  }
+}
+
+.wf-step-title {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin: 0;
+
+  @media (max-width: 767px) {
+    font-size: 1.25rem;
+  }
+}
+
+.wf-step-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.0625rem;
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 24px;
+
+  @media (max-width: 767px) {
+    font-size: 1rem;
+  }
+}
+
+// Feature Icons Row
+.wf-step-features {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 24px;
+
+  @media (max-width: 767px) {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+.wf-feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.wf-feature-icon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #e2e8f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    font-size: 1rem;
+    color: #1a365d;
+  }
+}
+
+.wf-feature-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #475569;
+}
+
+// Tags
+.wf-step-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.wf-step-tag {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #475569;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 24px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #f8fafc;
+    border-color: #cbd5e1;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 0.8125rem;
+    padding: 8px 14px;
+  }
+}
+
+.wf-tag-primary {
+  background-color: #1a365d;
+  color: #ffffff;
+  border-color: #1a365d;
+
+  &:hover {
+    background-color: #0f2341;
+    border-color: #0f2341;
+  }
+}
+
+// Growth Scale Indicator
+.wf-growth-scale {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+
+.wf-scale-box {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+
+  @media (max-width: 767px) {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.wf-scale-1 {
+  background-color: #cbd5e1;
+}
+
+.wf-scale-2 {
+  background-color: #94a3b8;
+}
+
+.wf-scale-3 {
+  background-color: #64748b;
+}
+
+.wf-scale-4 {
+  background-color: #475569;
+}
+
+.wf-scale-5 {
+  background-color: #1a365d;
+}
+
+.wf-scale-arrow {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+
+  i {
+    font-size: 1rem;
+    color: #1a365d;
+    transform: rotate(45deg);
+  }
+
+  @media (max-width: 767px) {
+    width: 28px;
+    height: 28px;
+  }
+}

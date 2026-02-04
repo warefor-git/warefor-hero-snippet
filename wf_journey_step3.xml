@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Step 3: You Focus on Growth -->
+    <template id="snippet_wf_journey_step3" name="Warefor Journey Step 3">
+        <section class="wf-step-section wf-step-alt">
+            <div class="container">
+                <div class="row wf-step-row wf-step-reverse">
+                    <!-- Image Left -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wf-step-image-wrapper">
+                            <span class="wf-step-badge">Step 3</span>
+                            <img src="/warefor_website/static/src/img/step3-truck.jpg" alt="Warefor Truck at Walmart" class="wf-step-image"/>
+                        </div>
+                    </div>
+                    <!-- Content Right -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wf-step-content wf-step-content-right">
+                            <div class="wf-step-icon-title">
+                                <span class="wf-step-icon">
+                                    <i class="fa fa-chart-line"></i>
+                                </span>
+                                <h3 class="wf-step-title">You Focus on Growth</h3>
+                            </div>
+                            <p class="wf-step-description">Stop packing boxes. Start building your brand. We scale with you from 100 to 100,000 orders.</p>
+                            
+                            <!-- Growth Scale Indicator -->
+                            <div class="wf-growth-scale">
+                                <span class="wf-scale-box wf-scale-1"></span>
+                                <span class="wf-scale-box wf-scale-2"></span>
+                                <span class="wf-scale-box wf-scale-3"></span>
+                                <span class="wf-scale-box wf-scale-4"></span>
+                                <span class="wf-scale-box wf-scale-5"></span>
+                                <span class="wf-scale-arrow"><i class="fa fa-arrow-up"></i></span>
+                            </div>
+
+                            <!-- Tags -->
+                            <div class="wf-step-tags">
+                                <span class="wf-step-tag wf-tag-primary">US Brand Presence</span>
+                                <span class="wf-step-tag wf-tag-primary">Retail Partnerships</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
