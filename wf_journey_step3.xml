@@ -35,8 +35,10 @@
 
                             <!-- Tags -->
                             <div class="wf-step-tags">
-                                <span class="wf-step-tag wf-tag-primary">US Brand Presence</span>
-                                <span class="wf-step-tag wf-tag-primary">Retail Partnerships</span>
+                                <span class="wf-step-tag">US Brand Presence</span>
+                                <span class="wf-step-tag">Retail Partnerships</span>
+                                <span class="wf-step-tag">Seasonal Scaling</span>
+                                <span class="wf-step-tag">Multi-Channel Growth</span>
                             </div>
                         </div>
                     </div>

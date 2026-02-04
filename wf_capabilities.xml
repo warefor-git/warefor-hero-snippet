@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Our Core Capabilities Section -->
+    <template id="snippet_wf_capabilities" name="Warefor Core Capabilities">
+        <section class="wf-capabilities-section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="wf-capabilities-title">Our Core Capabilities</h2>
+                        <p class="wf-capabilities-subtitle">Two pillars that power your success in the US market</p>
+                    </div>
+                </div>
+
+                <!-- Capabilities Cards -->
+                <div class="row wf-capabilities-row">
+                    <!-- Logistics & Operations Card -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wf-capability-card">
+                            <div class="wf-capability-icon">
+                                <i class="fa fa-truck"></i>
+                            </div>
+                            <h3 class="wf-capability-title">Logistics &amp; Operations</h3>
+                            <blockquote class="wf-capability-quote">
+                                "You don't need to build the infrastructure — we already have it."
+                            </blockquote>
+                            <p class="wf-capability-description">Flexible warehousing, distribution, and fulfillment solutions. We help maximize the effectiveness of supply chains, ensuring orders are processed and delivered timely.</p>
+                            <div class="wf-capability-tags">
+                                <span class="wf-capability-tag">Warehousing</span>
+                                <span class="wf-capability-tag">Distribution</span>
+                                <span class="wf-capability-tag">Fulfillment</span>
+                                <span class="wf-capability-tag">Supply Chain</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sales & Marketing Card -->
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wf-capability-card">
+                            <div class="wf-capability-icon">
+                                <i class="fa fa-chart-line"></i>
+                            </div>
+                            <h3 class="wf-capability-title">Sales &amp; Marketing</h3>
+                            <blockquote class="wf-capability-quote">
+                                "From planning to pitching, we help you make your product retail-ready."
+                            </blockquote>
+                            <p class="wf-capability-description">Specialized in end-to-end development and design services, we strive to ensure products are optimized for manufacturing, logistics, and end consumers.</p>
+                            <div class="wf-capability-tags">
+                                <span class="wf-capability-tag">Product Design</span>
+                                <span class="wf-capability-tag">Retail Ready</span>
+                                <span class="wf-capability-tag">Manufacturing</span>
+                                <span class="wf-capability-tag">Market Entry</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
