@@ -56,9 +56,32 @@
 
                             <h3 class="wf-cs-subsection-title">Sales &amp; Inventory Support</h3>
                             <ul class="wf-cs-list">
-                                <li>Supporting inventory planning and forecasting at the store and unit level</li>
-                                <li>Coordinating replenishment to ensure consistent product availability across thousands of retail locations</li>
+                                <li>Supporting inventory planning and forecasting at the store and network level</li>
+                                <li>Aligning inbound flows with expected sell-through to support expansion while protecting service levels</li>
                             </ul>
+                        </div>
+
+                        <!-- The Results -->
+                        <div class="wf-cs-section">
+                            <h2 class="wf-cs-section-title">The Results</h2>
+                            <ul class="wf-cs-list">
+                                <li>Rapid retail expansion driven by consistent execution and strong online, in-full performance</li>
+                                <li>Store count growth across multiple national retailers</li>
+                                <li>Warefor directly handled, stored, and shipped every unit placed in more than 5,000 retail stores across the United States</li>
+                                <li>In-store performance mirrored the brand's prior online success, enabling continued growth with additional retail partners</li>
+                            </ul>
+                        </div>
+
+                        <!-- Why It Matters Callout -->
+                        <div class="wf-cs-callout">
+                            <h3 class="wf-cs-callout-title">Why It Matters</h3>
+                            <p>This engagement demonstrates Warefor's ability to:</p>
+                            <ul class="wf-cs-callout-list">
+                                <li>Bridge the gap between marketplace fulfillment and physical retail distribution</li>
+                                <li>Reduce risk for international brands entering complex U.S. retail channels</li>
+                                <li>Combine operational excellence, systems expertise, and sales support into a single execution model</li>
+                            </ul>
+                            <p class="wf-cs-callout-cta"><strong>Strong products win online. Disciplined execution wins on the shelf. Warefor delivers both.</strong></p>
                         </div>
                     </div>
                 </div>
