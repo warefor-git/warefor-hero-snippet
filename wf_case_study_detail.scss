@@ -175,3 +175,107 @@
     }
   }
 }
+
+// Statistics Grid
+.wf-cs-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 40px 0;
+  padding: 32px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 24px;
+  }
+}
+
+.wf-cs-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.wf-cs-stat-value {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a365d;
+  line-height: 1.2;
+
+  @media (max-width: 767px) {
+    font-size: 1.75rem;
+  }
+}
+
+.wf-cs-stat-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+// Why It Matters Callout
+.wf-cs-callout {
+  background-color: #1a365d;
+  border-radius: 12px;
+  padding: 32px;
+  margin: 40px 0;
+
+  @media (max-width: 767px) {
+    padding: 24px;
+  }
+}
+
+.wf-cs-callout-title {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.wf-cs-callout p {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9375rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.wf-cs-callout-list {
+  margin: 12px 0 20px;
+  padding-left: 20px;
+
+  li {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9375rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.7;
+    margin-bottom: 8px;
+
+    &::marker {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
+
+.wf-cs-callout-cta {
+  margin: 0 !important;
+  color: #ffffff !important;
+}
+
+// Final Image
+.wf-cs-final-image {
+  margin-top: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.wf-cs-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}

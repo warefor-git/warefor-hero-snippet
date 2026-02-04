@@ -57,6 +57,55 @@
                                 <li>Proactive communication to ensure uninterrupted flow of containers</li>
                             </ul>
                         </div>
+
+                        <!-- Statistics Grid -->
+                        <div class="wf-cs-stats">
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">4,300+</span>
+                                <span class="wf-cs-stat-label">Inbound containers processed</span>
+                            </div>
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">3,900+</span>
+                                <span class="wf-cs-stat-label">Outbound truckloads dispatched</span>
+                            </div>
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">9.25M</span>
+                                <span class="wf-cs-stat-label">Cubic feet of merchandise handled</span>
+                            </div>
+                            <div class="wf-cs-stat">
+                                <span class="wf-cs-stat-value">0</span>
+                                <span class="wf-cs-stat-label">Inventory discrepancies at closeout</span>
+                            </div>
+                        </div>
+
+                        <!-- The Results -->
+                        <div class="wf-cs-section">
+                            <p>A short-term engagement evolved into a 2.5-year operational partnership.</p>
+                            <p>Warefor's execution drew recognition from senior leadership and operations teams, including multiple on-site visits to review best-practice warehouse processes. The operating model developed during this engagement was later referenced as a benchmark for other third-party logistics providers supporting similar initiatives.</p>
+                            <p>When the retailer completed additional long-term storage capacity near the port, Warefor:</p>
+                            <ul class="wf-cs-list">
+                                <li>Successfully wound down operations</li>
+                                <li>Emptied both facilities on schedule</li>
+                                <li>Delivered zero inventory discrepancies</li>
+                            </ul>
+                        </div>
+
+                        <!-- Why It Matters Callout -->
+                        <div class="wf-cs-callout">
+                            <h3 class="wf-cs-callout-title">Why It Matters</h3>
+                            <p>This case highlights Warefor's ability to:</p>
+                            <ul class="wf-cs-callout-list">
+                                <li>Rapidly deploy large-scale capacity in crisis environments</li>
+                                <li>Operate with precision, transparency, and control at high volume</li>
+                                <li>Act as a trusted extension of complex retail supply chains</li>
+                            </ul>
+                            <p class="wf-cs-callout-cta"><strong>When speed, scale, and execution matter most, Warefor delivers.</strong></p>
+                        </div>
+
+                        <!-- Final Image -->
+                        <div class="wf-cs-final-image">
+                            <img src="/warefor_website/static/src/img/warehouse-interior.jpg" alt="Warehouse Interior" class="wf-cs-image"/>
+                        </div>
                     </div>
                 </div>
             </div>
