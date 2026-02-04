@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Case Studies Section -->
+    <template id="snippet_wf_case_studies" name="Warefor Case Studies">
+        <section class="wf-case-studies-section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="wf-case-studies-title">Case Studies</h2>
+                        <p class="wf-case-studies-subtitle">Real-world examples of how Warefor delivers precision logistics and supply chain solutions.</p>
+                    </div>
+                </div>
+
+                <!-- Case Study Cards -->
+                <div class="row wf-case-studies-row">
+                    <!-- Card 1: Port Decongestion -->
+                    <div class="col-lg-4 col-md-4">
+                        <div class="wf-case-card">
+                            <div class="wf-case-image-wrapper">
+                                <img src="/warefor_website/static/src/img/case-containers.jpg" alt="Shipping Containers" class="wf-case-image"/>
+                            </div>
+                            <div class="wf-case-content">
+                                <h3 class="wf-case-title">Rapid Port Decongestion &amp; Emergency Warehousing</h3>
+                                <p class="wf-case-description">From Crisis Response to Long-Term Partnership. Delivered an immediate, large-scale warehousing solution with minimal lead time during peak congestion.</p>
+                                <p class="wf-case-stats">4,300+ CONTAINERS PROCESSED · 9.25M CU. FT. HANDLED</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Marketplace Fulfillment -->
+                    <div class="col-lg-4 col-md-4">
+                        <div class="wf-case-card">
+                            <div class="wf-case-image-wrapper">
+                                <img src="/warefor_website/static/src/img/case-map.jpg" alt="US Distribution Map" class="wf-case-image"/>
+                            </div>
+                            <div class="wf-case-content">
+                                <h3 class="wf-case-title">Marketplace Fulfillment at Scale</h3>
+                                <p class="wf-case-description">Enabling Seller-Fulfilled Prime &amp; Fast Nationwide Delivery. Established a flexible, marketplace-compliant fulfillment operation for a viral consumer brand.</p>
+                                <p class="wf-case-stats">1-DAY DELIVERY COVERAGE · 100% MARKETPLACE COMPLIANCE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Retail Expansion -->
+                    <div class="col-lg-4 col-md-4">
+                        <div class="wf-case-card">
+                            <div class="wf-case-image-wrapper">
+                                <img src="/warefor_website/static/src/img/case-retail.jpg" alt="Retail Store" class="wf-case-image"/>
+                            </div>
+                            <div class="wf-case-content">
+                                <h3 class="wf-case-title">Marketplace-to-Retail Expansion</h3>
+                                <p class="wf-case-description">Scaling from Online Success to Nationwide Store Distribution. Managed complex item setup and retail master data for a fast-growing international cookware brand.</p>
+                                <p class="wf-case-stats">5,000+ RETAIL STORES SERVED · ZERO INVENTORY DISCREPANCIES</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
